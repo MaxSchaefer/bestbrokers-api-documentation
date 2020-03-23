@@ -1,1 +1,2 @@
-bestbrokers-api-documentation
+# Unofficial documentation
+## All rights at [bestbrokers.de](https://www.bestbrokers.de/)

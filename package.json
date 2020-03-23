@@ -1,0 +1,29 @@
+{
+  "name": "bestbrokers-apidoc",
+  "version": "2.7.2",
+  "description": "Unofficial documentation for the Best Brokers API",
+  "apidoc": {
+    "url": "https://api.bestbrokers.de",
+    "template": {
+      "forceLanguage": "de",
+      "withCompare": false,
+      "aloneDisplay": true
+    },
+    "header": {
+      "title": "Types",
+      "filename": "doc/public/header.md"
+    },
+    "footer": {
+      "title": "Unofficial documentation",
+      "filename": "doc/public/footer.md"
+    }
+  },
+  "scripts": {
+    "build:doc": "apidoc -v -i doc/src/ -o doc/dist/"
+  },
+  "author": "Max Schäfer <contact@maxrs.de>",
+  "license": "bestbrokers.de",
+  "devDependencies": {
+    "apidoc": "^0.19.0"
+  }
+}
