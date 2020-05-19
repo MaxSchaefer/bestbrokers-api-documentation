@@ -65,6 +65,15 @@
  */
 
 /**
+ * @api {get} /stocks/search/:query Search a stock
+ * @apiGroup Stocks
+ * @apiUse AuthHeader
+ * @apiParam {string} query
+ * @apiSuccess (200) {Stock} data.stocks
+ * @apiUse 400BadRequest
+ */
+
+/**
  * @api {post} /users/me/watch/:isin Add stock to watchlist
  * @apiGroup Users
  * @apiUse AuthHeader
@@ -131,3 +140,12 @@
  * @apiSuccess (200) {User} data
  * @apiUse 400BadRequest
  */
+
+ /**
+  * @api {get} /users/search/:query Search a user
+  * @apiGroup Users
+  * @apiUse AuthHeader
+  * @apiParam {string} query
+  * @apiSuccess (200) {User} data
+  * @apiUse 400BadRequest
+  */

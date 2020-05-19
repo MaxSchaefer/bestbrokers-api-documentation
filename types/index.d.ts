@@ -10,8 +10,8 @@ interface User {
     money_initial: number,
     created_at: Date,
     last_request: Date,
-    rate_dialog_seen: null,
-    ad_start: Date,
+    rate_dialog_seen?: null,
+    ad_start?: Date,
     me?: Me
 }
 
